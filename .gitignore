@@ -8,8 +8,6 @@ dist
 dist-ssr
 
 # Environment variables
-.env
-.env.*
 !.env.example
 server/.env
 server/.env.*
@@ -26,7 +24,6 @@ server/server.out.log
 server/server.err.log
 
 # Editor directories and files
-.vscode/*
 !.vscode/extensions.json
 .idea
 .DS_Store
@@ -41,3 +38,4 @@ Thumbs.db
 branch_structure.json
 temp_auto_push.bat
 temp_interactive_push.bat
+config.bat
